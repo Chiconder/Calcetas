@@ -1,0 +1,81 @@
+html{
+    position: relative;
+    background-image: 
+        linear-gradient(rgb(255, 254, 241),rgb(255, 255, 253)),
+        url(../img/correr.gif);
+    background-size: cover;
+    background-blend-mode:soft-light;
+}
+
+fieldset{
+    border: 5px solid black;
+    width: 300px;
+    height: fit-content;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#inicioSesion{
+    display: grid;
+    grid-template: repeat(2,auto) / repeat(2,40px);
+    grid-gap: 20px;
+}
+
+#user{
+    width: 50px;
+    height: 50px;
+}
+
+.imgSes{
+    width: 30px;
+    height: 30px;
+}
+
+p{
+    margin-top: -5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-VariableFont_wght.ttf");
+}
+
+h1{
+    font-family: "Raleway";
+    text-shadow: 2px 2px blue;
+    text-align: center;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px yellow;
+}
+
+input{
+    border-radius: 5px;
+    border-color:firebrick;
+}
+
+input:focus{
+    background-color:lightgoldenrodyellow;
+}
+
+#login{
+    background-color:brown;
+    color: white;
+    border-radius: 10px;
+    border-color: brown;
+    width: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: fit-content;
+    margin-left: 100px;
+    font-size:medium;
+}
+
+a:hover{
+    color: darkgreen;
+}

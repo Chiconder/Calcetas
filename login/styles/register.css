@@ -1,0 +1,98 @@
+.imgReg{
+    width: 30px;
+    height: 30px;
+}
+
+.imgOtros{
+    width: 30px;
+    height: 30px;
+}
+
+hr{
+    width: 500px;
+    margin-left: 0;
+}
+
+#fondoReg{
+    position: relative;
+    display: inline;
+    margin-top: -850px;
+    margin-left: 50%;
+    width: 670px;
+    height: 650px;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Raleway italic";
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Anton";
+    src: url(../fonts/Anton-Regular.ttf);
+}
+
+#parrafoInicio{
+    font-family: "Raleway";
+    margin-left: 5%;
+    text-decoration: underline wavy red;
+    font-size: larger;
+}
+
+#otroParrafo{
+    font-family: "Raleway italic";
+    margin-left: 15%;
+}
+
+#registro{
+    margin-left: 10px;
+}
+
+.campos{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    border-color: blue;
+    border-radius: 5px;
+}
+
+input:focus{
+    background-color: lightblue;
+}
+
+button{
+    background-color:rgb(241, 241, 68);
+    border-color: rgb(241, 241, 68);
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 90px;
+    height: fit-content;
+    font-size: medium;
+    padding: 2px;
+    margin-left: 18%;
+}
+
+#otro{
+    margin-left: 10px;
+}
+
+#otroReg{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 70px;
+    left: 800px;
+    font-family: "Anton";
+    font-size: 150px;
+    transform: perspective(300px) rotateY(10deg);
+    text-shadow: 10px 5px chartreuse;
+}
