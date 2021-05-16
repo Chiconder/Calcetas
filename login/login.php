@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Inicio de seción</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
@@ -15,18 +15,23 @@
                     <img src="./img/usuario.png" alt="" id="user">
                 </legend>
                 <legend>
+
                     <h1>¡Bienvenido!</h1>
                     <h3>Inicia sesión</h3>
-                    <div id="inicioSesion">
+                    <div class="inicioSesion" id="inicioSesion">
+
                         <img src="./img/otroAvatar.png" alt="" class="imgSes">
-                        <p>Usuario: <br><input type="text" name="user"></p>
+                      <input placeholder="Usuario" type="text" name="user">
+                     
                         <img src="./img/candado.png" alt="" class="imgSes">
-                        <p>Contraseña: <br><input type="password" name="pass"></p>
-                    </div>
+                        <input placeholder="Contraseña" type="password" name="pass">
+                   </div>
+                   
                     <br>
-                   <button type="submit" id="login">Login</button>
-                   <br><br>
-                   <p>¿No tienes una cuenta? <a href="./registro.html" target="_blank">Regístrate</a></p> 
+                    <p class="NoR"> ¿No tienes una cuenta? <a class="reg" href="./registro.html" target="_blank">Regístrate</a></p> 
+                    <button type="submit" class="Login" id="login">Login</button>
+                   
+               
                 </legend>
             </fieldset>
         </form>    
