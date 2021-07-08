@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./indexStyles.css">
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="./index.html" class="navegacion">Home</a></li>
+            <li><a class="navegacion">Catálogo</a></li>
+            <li><a class="navegacion">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <section id="parte1">
+        <div class="parte1-1">
+            <div id="parte1-1-1">
+                <div id="empresa">
+                    <h1>CALCETOMANÍA</h1>
+                </div>
+                <br>
+                <p id="inicio">El mejor lugar para comprar todos tus calcetines.</p>
+            </div>
+        </div>
+        <div class="parte1-2">
+            <a href="./login/login.html" id="inicioSesion">Inicia Sesión</a>
+        </div>
+    </section>
+    <br><br><br>
+    <section id="parte2">
+        <p class="serv" id="serv1"><u>"Te ofrecemos los mejores calcetines del mercado."</u></p><br><br><br>
+        <p class="serv" id="serv2">NUESTROS SERVICIOS</p>
+        <br><br>
+        <div class="servicios">
+            <div id="parte2-1">
+                <table>
+                    <tr class="tablaRelleno">
+                        <td><img src="./img/compraLinea.png" alt="" class="iconos"></td>
+                        <td><p>Tenemos un servicio de compra en línea para mayor comodidad para nuestros clientes</p></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./img/compraPresencial.png" alt="" class="iconos"></td>
+                        <td><p>También contamos con diferentes sucursales alrededor de la República Mexicana para una mejor atención</p></td>
+                    </tr>
+                    <tr class="tablaRelleno">
+                        <td><img src="./img/personalizar.png" alt="" class="iconos"></td>
+                        <td><p>Además, si tienes algún diseño en mente con el que quieras personalizar tus calcetas, nosotros podemos hacerlo posible</p></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="parte2-2">
+                <img src="./img/calcetas.jpg" alt="" id="calcetas">
+            </div>
+        </div>
+    </section>
+    <br><br><br>
+    <p id="tipCalcetas">NUESTRAS CALCETAS</p>
+    <br><br><br>
+    <section id="parte3">
+        <br>
+        <div class="container">
+            <div class="mySlides">             
+                <img src="./img/calcetines-para-diabeticos.png" alt="">
+            </div>
+            <div class="mySlides">
+                <img src="./img/calcetines-de-vestir.png" alt="">
+            </div>
+            <div class="mySlides">
+                <img src="./img/calcetines-deportivos.png" alt="">
+            </div>
+            <div class="mySlides">
+                <img src="./img/calcetines-casuales.png" alt="">
+            </div>
+            <div class="mySlides">
+                <img src="./img/mas-calcetas.png" alt="">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="text">
+            <p>MEJOR CALIDAD <br> AL MEJOR PRECIO</p>
+        </div>
+        <div class="image">
+            <img src="./img/garantizado.jpg" alt="">
+        </div>
+    </section>
+    <br><br><br><br>
+    <p class="sec3" id="sec3-1">¿Buscas un tipo de calceta en especial? ¡Nosotros la tenemos!</p>
+    <br><br><br>
+    <section id="parte4">
+        <div id="parteGral">
+            <div>
+                <p id="marcCalcetas">NUESTRAS MARCAS</p><br>
+                <p class="part4-1">Estas son algunas de las marcas que tenemos disponibles para ti</p><br>
+                <img src="./img/marcas.png" alt="" id="marcas">
+            </div>
+            <div>
+                <p class="part4-2">Contamos con <b>servicio a domicilio</b> para tu mayor comodidad</p><br>
+                <img src="./img/implementa-servicio-a-domicilio.png" alt="" id="servDom"><br>
+            </div>
+            <img src="./img/casa.jpg" alt="" id="servDom2">
+        </div>
+    </section>
+    <br><br>
+    <footer>
+        <p class="titContact">CONTÁCTANOS</p><br>
+       <hr><br>
+       <p id="cont">¿Tienes alguna duda, sugerencia o comentario? Escríbenos</p>
+       <br>
+       <form action="">
+            <input type="text" name="" id="" placeholder="Introduce tu nombre completo" class="reg"><br><br>
+            <input type="email" name="" id="" placeholder="Intruduce un email válido" class="reg"><br><br>
+            <textarea name="" id="" cols="80" rows="8" placeholder="Escribe tu mensaje"></textarea><br><br>
+            <input type="submit" value="E N V I A R" id="botonEnviar">
+        </form>
+        <br><br>
+        <p class="titContact">SÍGUENOS EN</p><br>
+        <hr><br>
+        <img src="./img/iconos.png" alt="" id="icons">
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -35,7 +35,7 @@
 
     <img src="./img/fondoRegistro.jpg" alt="" id="fondoReg">
     
-    <div class="texto-encima">Nombre <br>Empresa</div>
+    <div class="texto-encima">CALCETO<br>MANIA</div>
    
 </body>
 </html>
